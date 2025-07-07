@@ -1,156 +1,156 @@
-# Contributing to RAG Techniques
+# 为RAG技术做贡献
 
-Welcome to the world's largest and most comprehensive repository of Retrieval-Augmented Generation (RAG) tutorials! 🌟 We're thrilled you're interested in contributing to this ever-growing knowledge base. Your expertise and creativity can help us maintain our position at the forefront of RAG technology.
+欢迎来到世界上最大、最全面的检索增强生成（RAG）教程库！🌟 我们很高兴您有兴趣为这个不断增长的知识库做出贡献。您的专业知识和创造力可以帮助我们保持在RAG技术的前沿地位。
 
-## Join Our Community
+## 加入我们的社区
 
-We have a vibrant Discord community where contributors can discuss ideas, ask questions, and collaborate on RAG techniques. Join us at:
+我们有一个充满活力的Discord社区，贡献者可以在这里讨论想法、提出问题并就RAG技术进行协作。加入我们：
 
-[RAG Techniques Discord Server](https://discord.gg/cA6Aa4uyDX)
+[RAG技术Discord服务器](https://discord.gg/cA6Aa4uyDX)
 
-Don't hesitate to introduce yourself and share your thoughts!
+不要犹豫，介绍自己并分享您的想法！
 
-## Ways to Contribute
+## 贡献方式
 
-We welcome contributions of all kinds! Here are some ways you can help:
+我们欢迎各种形式的贡献！以下是您可以提供帮助的一些方式：
 
-1. **Add New RAG Techniques:** Create new notebooks showcasing novel RAG methods.
-2. **Improve Existing Notebooks:** Enhance, update, or expand our current tutorials.
-3. **Fix Bugs:** Help us squash bugs in existing code or explanations.
-4. **Enhance Documentation:** Improve clarity, add examples, or fix typos in our docs.
-5. **Share Creative Ideas:** Have an innovative idea? We're all ears!
-6. **Engage in Discussions:** Participate in our Discord community to help shape the future of RAG.
+1.  **添加新的RAG技术：** 创建新的notebook，展示新颖的RAG方法。
+2.  **改进现有的Notebook：** 增强、更新或扩展我们当前的教程。
+3.  **修复错误：** 帮助我们修复现有代码或解释中的错误。
+4.  **增强文档：** 提高我们文档的清晰度、添加示例或修复拼写错误。
+5.  **分享创意：** 有创新的想法吗？我们洗耳恭听！
+6.  **参与讨论：** 参与我们的Discord社区，帮助塑造RAG的未来。
 
-Remember, no contribution is too small. Every improvement helps make this repository an even better resource for the community.
+请记住，没有贡献是微不足道的。每一次改进都有助于使这个存储库成为社区更好的资源。
 
-## Reporting Issues
+## 报告问题
 
-Found a problem or have a suggestion? Please create an issue on GitHub, providing as much detail as possible. You can also discuss issues in our Discord community.
+发现问题或有建议吗？请在GitHub上创建一个问题，并提供尽可能多的详细信息。您也可以在我们的Discord社区中讨论问题。
 
-## Contributing Code or Content
+## 贡献代码或内容
 
-1. **Fork and Branch:** Fork the repository and create your branch from `main`.
-2. **Make Your Changes:** Implement your contribution, following our best practices.
-3. **Test:** Ensure your changes work as expected.
-4. **Follow the Style:** Adhere to the coding and documentation conventions used throughout the project.
-5. **Commit:** Make your git commits informative and concise.
-6. **Stay Updated:** The main branch is frequently updated. Before opening a pull request, make sure your code is up-to-date with the current main branch and has no conflicts.
-7. **Push and Pull Request:** Push to your fork and submit a pull request.
-8. **Discuss:** Use the Discord community to discuss your contribution if you need feedback or have questions.
+1.  **Fork和分支：** Fork存储库并从`main`创建您的分支。
+2.  **进行更改：** 遵循我们的最佳实践，实施您的贡献。
+3.  **测试：** 确保您的更改按预期工作。
+4.  **遵循风格：** 遵守整个项目中使用的编码和文档约定。
+5.  **提交：** 使您的git提交信息丰富且简洁。
+6.  **保持更新：** `main`分支经常更新。在打开拉取请求之前，请确保您的代码与当前的`main`分支保持同步并且没有冲突。
+7.  **推送和拉取请求：** 推送到您的fork并提交拉取请求。
+8.  **讨论：** 如果您需要反馈或有疑问，请使用Discord社区讨论您的贡献。
 
-## Adding a New RAG Method
+## 添加新的RAG方法
 
-When adding a new RAG method to the repository, please follow these additional steps:
+在向存储库添加新的RAG方法时，请遵循以下附加步骤：
 
-1. Create your notebook in the `all_rag_techniques` folder.
-2. Update BOTH the list and table in README.md:
+1.  在`all_rag_techniques`文件夹中创建您的notebook。
+2.  更新README.md中的列表和表格：
 
-   ### A. Update the List of Techniques
-   - Add your new method to the list of techniques in the README
-   - Place it in the appropriate position based on complexity (methods are sorted from easiest to most complicated)
-   - Use the following format for the link:
+    ### A. 更新技术列表
+    -   将您的新方法添加到README中的技术列表中
+    -   根据复杂性将其放置在适当的位置（方法从最简单到最复杂排序）
+   - 使用以下格式创建链接：
      ```
-     ### [Number]. [Your Method Name 🏷️](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/your_file_name.ipynb)
+     ### [编号]. [你的方法名称 🏷️](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/your_file_name.ipynb)
      ```
-   - Replace `[Number]` with the appropriate number, `[Your Method Name]` with your method's name, and `your_file_name.ipynb` with the actual name of your notebook file
-   - Choose an appropriate emoji that represents your method
+   - 将 `[编号]` 替换为适当的数字，`[你的方法名称]` 替换为你的方法名称，`your_file_name.ipynb` 替换为你的 notebook 文件的实际名称。
+   - 选择一个能代表你方法的表情符号。
 
-   ### B. Update the Techniques Table
-   - Add a new row to the table with your technique
-   - Include all available implementations (LangChain, LlamaIndex, and/or Runnable Script)
-   - Use the following format:
+   ### B. 更新技术表格
+   - 在表格中为你的技术添加新的一行。
+   - 包括所有可用的实现（LangChain、LlamaIndex 和/或可运行脚本）。
+   - 使用以下格式：
      ```
-     | [Number] | [Category] | [LangChain](...) / [LlamaIndex](...) / [Runnable Script](...) | [Description] |
+     | [编号] | [类别] | [LangChain](...) / [LlamaIndex](...) / [可运行脚本](...) | [描述] |
      ```
-   - Make sure to:
-     - Update the technique number to maintain sequential order
-     - Choose the appropriate category with emoji
-     - Include links to all available implementations
-     - Write a clear, concise description
+   - 请确保：
+     - 更新技术编号以保持顺序。
+     - 选择带有表情符号的适当类别。
+     - 包括所有可用实现的链接。
+     - 编写清晰、简洁的描述。
 
-   ### C. Important Note
-   - After inserting your new method, make sure to update the numbers of all subsequent techniques to maintain the correct order in BOTH the list and the table
-   - The numbers in the list and table must match exactly
-   - If you add a new technique as number 5, all techniques after it should be incremented by 1 in both places
+   ### C. 重要提示
+   - 插入新方法后，请确保更新所有后续技术的编号，以在列表和表格中保持正确的顺序。
+   - 列表和表格中的编号必须完全匹配。
+   - 如果你添加一个新技术作为第5号，那么之后的所有技术在这两个地方都应该增加1。
 
-For example, if you're adding a new technique between Simple RAG and Next Method:
+例如，如果你在 Simple RAG 和 Next Method 之间添加一个新技术：
 
-In the list:
+在列表中：
 ```
 ### 1. [Simple RAG 🌱](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag.ipynb)
-### 2. [Your New Method 🆕](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/your_new_method.ipynb)
-### 3. [Next Method 🔜](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/next_method.ipynb)
+### 2. [你的新方法 🆕](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/your_new_method.ipynb)
+### 3. [下一个方法 🔜](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/next_method.ipynb)
 ```
 
-And in the table:
+在表格中：
 ```
-| 1 | Foundational 🌱 | [LangChain](...) / [LlamaIndex](...) / [Runnable Script](...) | Basic RAG implementation |
-| 2 | Your Category 🆕 | [LangChain](...) / [LlamaIndex](...) / [Runnable Script](...) | Your new method description |
-| 3 | Next Category 🔜 | [LangChain](...) / [LlamaIndex](...) / [Runnable Script](...) | Next method description |
+| 1 | 基础 🌱 | [LangChain](...) / [LlamaIndex](...) / [可运行脚本](...) | 基本的RAG实现 |
+| 2 | 你的类别 🆕 | [LangChain](...) / [LlamaIndex](...) / [可运行脚本](...) | 你的新方法描述 |
+| 3 | 下一个类别 🔜 | [LangChain](...) / [LlamaIndex](...) / [可运行脚本](...) | 下一个方法描述 |
 ```
 
-Remember: Always update BOTH the list and table when adding new techniques, and ensure the numbers match exactly between them.
+记住：添加新技术时，务必同时更新列表和表格，并确保它们之间的编号完全匹配。
 
-## Notebook Structure
+## Notebook 结构
 
-For new notebooks or significant additions to existing ones, please follow this structure:
+对于新的 notebook 或对现有 notebook 的重要补充，请遵循以下结构：
 
-1. **Title and Overview:** Clear title and brief overview of the technique.
+1. **标题和概述：** 清晰的标题和对该技术的简要概述。
 
-2. **Detailed Explanation:** Cover motivation, key components, method details, and benefits.
+2. **详细解释：** 涵盖动机、关键组件、方法细节和优点。
 
-3. **Visual Representation:** Include a diagram to visualize the technique. We recommend using Mermaid syntax for creating these diagrams. Here's how to do it:
+3. **可视化表示：** 包括一个图表来可视化该技术。我们建议使用 Mermaid 语法来创建这些图表。方法如下：
 
-• Create a graph using Mermaid's graph TD (top-down) syntax<br>
-• You can use Claude or other AI assistants to help you design the graph if needed<br>
-• Paste your Mermaid code into [Mermaid Live Editor](https://mermaid.live/)<br>
-• In the "Actions" tab of Mermaid Live Editor, download the SVG file of your diagram<br>
-• Store the SVG file in the [images folder](https://github.com/NirDiamant/RAG_Techniques/tree/main/images) of the repository<br>
-• Use an appropriate, descriptive name for the file<br>
-• In your notebook, display the image using Markdown syntax:<br>
+• 使用 Mermaid 的 `graph TD` (top-down) 语法创建一个图表。<br>
+• 如果需要，你可以使用 Claude 或其他 AI 助手来帮助你设计图表。<br>
+• 将你的 Mermaid 代码粘贴到 [Mermaid Live Editor](https://mermaid.live/)。<br>
+• 在 Mermaid Live Editor 的“Actions”选项卡中，下载图表的 SVG 文件。<br>
+• 将 SVG 文件存储在仓库的 [images 文件夹](https://github.com/NirDiamant/RAG_Techniques/tree/main/images)中。<br>
+• 为文件使用一个适当的、描述性的名称。<br>
+• 在你的 notebook 中，使用 Markdown 语法显示图像：<br>
   ```markdown
-  ![Your Technique Name](../images/your-technique-name.svg)
+  ![你的技术名称](../images/your-technique-name.svg)
   ```
 
-This process ensures consistency in our visual representations and makes it easy for others to understand and potentially modify the diagrams in the future.
+这个过程确保了我们可视化表示的一致性，并使其他人将来可以轻松理解和修改图表。
 
-4. **Implementation:** Step-by-step Python implementation with clear comments and explanations.
+4. **实现：** 带有清晰注释和解释的逐步 Python 实现。
 
-5. **Usage Example:** Demonstrate the technique with a practical example.
+5. **使用示例：** 用一个实际的例子来演示该技术。
 
-6. **Comparison:** Compare with basic RAG, both qualitatively and quantitatively if possible.
+6. **比较：** 如果可能，与基本的 RAG 进行定性和定量的比较。
 
-7. **Additional Considerations:** Discuss limitations, potential improvements, or specific use cases.
+7. **其他注意事项：** 讨论局限性、潜在的改进或特定的用例。
 
-8. **References:** Include relevant citations or resources if you have.
+8. **参考文献：** 如果有，请包括相关的引文或资源。
 
-## Notebook Best Practices
+## Notebook 最佳实践
 
-To ensure consistency and readability across all notebooks:
+为确保所有 notebook 的一致性和可读性：
 
-1. **Code Cell Descriptions:** Each code cell should be preceded by a markdown cell with a clear, concise title describing the cell's content or purpose.
+1. **代码单元格描述：** 每个代码单元格前都应有一个 markdown 单元格，其中包含一个清晰、简洁的标题，描述该单元格的内容或目的。
 
-2. **Clear Unnecessary Outputs:** Before committing your notebook, clear all unnecessary cell outputs. This helps reduce file size and avoids confusion from outdated results.
+2. **清除不必要的输出：** 在提交 notebook 之前，清除所有不必要的单元格输出。这有助于减小文件大小，并避免因过时的结果而产生混淆。
 
-3. **Consistent Formatting:** Maintain consistent formatting throughout the notebook, including regular use of markdown headers, code comments, and proper indentation.
+3. **格式一致：** 在整个 notebook 中保持格式一致，包括定期使用 markdown 标题、代码注释和正确的缩进。
 
-## Code Quality and Readability
+## 代码质量和可读性
 
-To ensure the highest quality and readability of our code:
+为确保我们代码的最高质量和可读性：
 
-1. **Write Clean Code:** Follow best practices for clean, readable code.
-2. **Use Comments:** Add clear and concise comments to explain complex logic.
-3. **Format Your Code:** Use consistent formatting throughout your contribution.
-4. **Language Model Review:** After completing your code, consider passing it through a language model for additional formatting and readability improvements. This extra step can help make your code even more accessible and maintainable.
+1. **编写干净的代码：** 遵循编写干净、可读代码的最佳实践。
+2. **使用注释：** 添加清晰简洁的注释来解释复杂的逻辑。
+3. **格式化你的代码：** 在你的贡献中始终使用一致的格式。
+4. **语言模型审查：** 完成代码后，可以考虑将其通过语言模型进行额外的格式化和可读性改进。这个额外的步骤可以帮助你的代码更容易访问和维护。
 
-## Documentation
+## 文档
 
-Clear documentation is crucial. Whether you're improving existing docs or adding new ones, follow the same process: fork, change, test, and submit a pull request.
+清晰的文档至关重要。无论你是改进现有文档还是添加新文档，都请遵循相同的流程：fork、更改、测试和提交拉取请求。
 
-## Final Notes
+## 最后说明
 
-We're grateful for all our contributors and excited to see how you'll help expand the world's most comprehensive RAG resource. Don't hesitate to ask questions in our Discord community if you're unsure about anything.
+我们感谢所有的贡献者，并期待看到你如何帮助扩展这个世界上最全面的 RAG 资源。如果你对任何事情不确定，请随时在我们的 Discord 社区提问。
 
-Let's harness our collective knowledge and creativity to push the boundaries of RAG technology together!
+让我们共同利用我们的集体知识和创造力，共同推动 RAG 技术的边界！
 
-Happy contributing! 🚀
+贡献愉快！🚀
