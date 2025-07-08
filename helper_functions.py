@@ -335,7 +335,7 @@ class ModelProvider(Enum):
     AMAZON_BEDROCK = "bedrock"
 
 
-def get_langchain_embedding_provider(provider: EmbeddingProvider, model_id: str = None):
+def get_langchain_embedding_provider(provider: EmbeddingProvider, model_id: str = None, base_url: str = None, api_key: str = None):
     """
     Returns an embedding provider based on the specified provider and model ID.
 
@@ -351,7 +351,7 @@ def get_langchain_embedding_provider(provider: EmbeddingProvider, model_id: str 
     """
     if provider == EmbeddingProvider.OPENAI:
         from langchain_openai import OpenAIEmbeddings
-        return OpenAIEmbeddings()
+        return OpenAIEmbeddings(base_url=base_url, openai_api_key=api_key, model=model_id)
     elif provider == EmbeddingProvider.COHERE:
         from langchain_cohere import CohereEmbeddings
         return CohereEmbeddings()

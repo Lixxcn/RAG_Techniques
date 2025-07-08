@@ -123,9 +123,9 @@
 ### 🌱 基础RAG技术
 
 1. 简单RAG 🌱
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag.ipynb)
-   - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag_with_llamaindex.ipynb)
-   - **[可运行脚本](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques_runnable_scripts/simple_rag.py)**
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/simple_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag.ipynb)
+   - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/simple_rag_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_rag_with_llamaindex.ipynb)
+   - **[可运行脚本](all_rag_techniques_runnable_scripts/simple_rag.py)**
 
    #### 概述 🔎
    介绍适合新手的基本RAG技术。
@@ -134,8 +134,8 @@
    从基本检索查询开始，并集成增量学习机制。
 
 2. 使用CSV文件的简单RAG 🧩
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag.ipynb)
-   - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag_with_llamaindex.ipynb)
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/simple_csv_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag.ipynb)
+   - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/simple_csv_rag_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/simple_csv_rag_with_llamaindex.ipynb)
    
     #### 概述 🔎
     介绍使用CSV文件的基本RAG。
@@ -143,7 +143,7 @@
     #### 实现 🛠️
     这使用CSV文件创建基本检索，并与openai集成以创建问答系统。
 
-3. **可靠的RAG 🏷️**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reliable_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reliable_rag.ipynb)
+3. **可靠的RAG 🏷️**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/reliable_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reliable_rag.ipynb)
 
    #### 概述 🔎
    通过添加验证和细化来增强简单RAG，以确保检索信息的准确性和相关性。
@@ -152,7 +152,7 @@
    检查检索到的文档相关性，并突出显示用于回答的文档段落。
 
 4. 选择分块大小 📏  
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/choose_chunk_size.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/choose_chunk_size.ipynb)  
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/choose_chunk_size.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/choose_chunk_size.ipynb)  
    - **[可运行脚本](all_rag_techniques_runnable_scripts/choose_chunk_size.py)**
 
    #### 概述 🔎
@@ -161,7 +161,7 @@
    #### 实现 🛠️
    尝试不同的分块大小，以在保留上下文和保持特定用例的检索速度之间找到最佳平衡。
 
-5. **命题分块 ⛓️‍💥**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/proposition_chunking.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/proposition_chunking.ipynb)
+5. **命题分块 ⛓️‍💥**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/proposition_chunking.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/proposition_chunking.ipynb)
 
    #### 概述 🔎
    将文本分解为简洁、完整、有意义的句子，从而更好地控制和处理特定查询（特别是提取知识）。
@@ -176,7 +176,7 @@
 ### 🔍 查询增强
 
 6. 查询转换 🔄  
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/query_transformations.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/query_transformations.ipynb)  
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/query_transformations.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/query_transformations.ipynb)  
    - **[可运行脚本](all_rag_techniques_runnable_scripts/query_transformations.py)**
 
    #### 概述 🔎
@@ -188,7 +188,7 @@
    - 🧩 **子查询分解:** 将复杂查询分解为更简单的子查询。
 
 7. 假设性问题 (HyDE方法) ❓  
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb)  
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb)  
    - **[可运行脚本](all_rag_techniques_runnable_scripts/HyDe_Hypothetical_Document_Embedding.py)**
 
    #### 概述 🔎
@@ -203,7 +203,7 @@
 ### 📚 上下文与内容丰富
 
 8. 假设性提示嵌入 (HyPE) ❓🚀  
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyPE_Hypothetical_Prompt_Embedding.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyPE_Hypothetical_Prompt_Embedding.ipynb)  
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/HyPE_Hypothetical_Prompt_Embedding.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/HyPE_Hypothetical_Prompt_Embedding.ipynb)  
    - **[可运行脚本](all_rag_techniques_runnable_scripts/HyPE_Hypothetical_Prompt_Embeddings.py)**  
 
    #### 概述 🔎  
@@ -219,7 +219,7 @@
    - **[预印本：假设性提示嵌入 (HyPE)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5139335)** - 详细介绍该方法、评估和基准测试的研究论文。  
 
 
-9. **上下文块标题 :label:**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/contextual_chunk_headers.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/contextual_chunk_headers.ipynb)
+9. **上下文块标题 :label:**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/contextual_chunk_headers.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/contextual_chunk_headers.ipynb)
 
     #### 概述 🔎
     上下文块标题 (CCH) 是一种创建文档级和节级上下文的方法，并在嵌入之前将这些块标题前置到块中。
@@ -230,7 +230,7 @@
     #### 额外资源 📚
     **[dsRAG](https://github.com/D-Star-AI/dsRAG)**: 实现此技术（以及其他一些高级RAG技术）的开源检索引擎
 
-10. **相关片段提取 🧩**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/relevant_segment_extraction.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/relevant_segment_extraction.ipynb)
+10. **相关片段提取 🧩**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/relevant_segment_extraction.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/relevant_segment_extraction.ipynb)
 
     #### 概述 🔎
     相关片段提取 (RSE) 是一种动态构建与给定查询相关的多块文本片段的方法。
@@ -239,8 +239,8 @@
     执行检索后处理步骤，分析最相关的块并识别更长的多块片段，以便为LLM提供更完整的上下文。
 
 11. 上下文丰富技术 📝  
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk.ipynb)  
-   - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk_with_llamaindex.ipynb)
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/context_enrichment_window_around_chunk.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk.ipynb)  
+   - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/context_enrichment_window_around_chunk_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/context_enrichment_window_around_chunk_with_llamaindex.ipynb)
    - **[可运行脚本](all_rag_techniques_runnable_scripts/context_enrichment_window_around_chunk.py)**
   
    #### 概述 🔎
@@ -250,8 +250,8 @@
    检索最相关的句子，同时访问其在原始文本中之前和之后的句子。
 
 12. 语义分块 🧠
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/semantic_chunking.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/semantic_chunking.ipynb)
-   - **[可运行脚本](https://github.com/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques_runnable_scripts/semantic_chunking.py)**
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/semantic_chunking.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/semantic_chunking.ipynb)
+   - **[可运行脚本](all_rag_techniques_runnable_scripts/semantic_chunking.py)**
 
    #### 概述 🔎
    根据语义连贯性而不是固定大小来划分文档。
@@ -263,7 +263,7 @@
    - **[语义分块：改进AI信息检索](https://open.substack.com/pub/diamantai/p/semantic-chunking-improving-ai-information?r=336pe4&utm_campaign=post&utm_medium=web)** - 一篇探讨在RAG系统中实现语义分块的好处和方法的综合性博客文章。
 
 13. 上下文压缩 🗜️  
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/contextual_compression.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/contextual_compression.ipynb)  
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/contextual_compression.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/contextual_compression.ipynb)  
    - **[可运行脚本](all_rag_techniques_runnable_scripts/contextual_compression.py)**
 
    #### 概述 🔎
@@ -273,7 +273,7 @@
    使用LLM压缩或总结检索到的块，保留与查询相关的关键信息。
 
 14. 通过问题生成增强文档以提升检索效果  
-   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/document_augmentation.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/document_augmentation.ipynb)  
+   - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/document_augmentation.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/document_augmentation.ipynb)  
    - **[可运行脚本](all_rag_techniques_runnable_scripts/document_augmentation.py)**
 
    #### 概述 🔎
@@ -285,8 +285,8 @@
 ### 🚀 高级检索方法
 
 15. 融合检索 🔗  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval.ipynb)  
-    - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval_with_llamaindex.ipynb)
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/fusion_retrieval.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval.ipynb)  
+    - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/fusion_retrieval_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/fusion_retrieval_with_llamaindex.ipynb)
     - **[可运行脚本](all_rag_techniques_runnable_scripts/fusion_retrieval.py)**
  
     #### 概述 🔎
@@ -296,8 +296,8 @@
     将基于关键字的搜索与基于向量的搜索相结合，以实现更全面、更准确的检索。
 
 16. 智能重排 📈  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reranking.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reranking.ipynb)  
-    - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reranking_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reranking_with_llamaindex.ipynb)
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/reranking.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reranking.ipynb)  
+    - **LlamaIndex**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/reranking_with_llamaindex.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/reranking_with_llamaindex.ipynb)
     - **[可运行脚本](all_rag_techniques_runnable_scripts/reranking.py)**
 
     #### 概述 🔎
@@ -323,7 +323,7 @@
     - 🌈 **多样性过滤:** 通过过滤掉近乎重复的条目来确保结果的多样性。
 
 18. 分层索引 🗂️  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/hierarchical_indices.ipynb) [<img src="https.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/hierarchical_indices.ipynb)  
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/hierarchical_indices.ipynb) [<img src="https.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/hierarchical_indices.ipynb)  
     - **[可运行脚本](all_rag_techniques_runnable_scripts/hierarchical_indices.py)**
 
     #### 概述 🔎
@@ -344,7 +344,7 @@
     应用不同的嵌入模型或检索算法，并使用投票或加权机制来确定最终的检索文档集。
 
 20. 飞镖靶检索 🎯
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/dartboard.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/dartboard.ipynb) 
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/dartboard.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/dartboard.ipynb) 
     #### 概述 🔎
     优化检索中的相关信息增益
 
@@ -358,14 +358,14 @@
     扩展RAG功能以处理多种数据类型，从而获得更丰富的响应。
 
     #### 实现 🛠️
-    - **带有多媒体字幕的多模型RAG**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/multi_model_rag_with_captioning.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/multi_model_rag_with_captioning.ipynb) - 为所有其他多媒体数据（如pdf、ppt等）添加字幕并与文本数据一起存储在向量存储中，然后一起检索它们。
-    - **带Colpali的多模型RAG**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/multi_model_rag_with_colpali.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/multi_model_rag_with_colpali.ipynb) - 不再添加字幕，而是将所有数据转换为图像，然后找到最相关的图像并将其传递给视觉大型语言模型。
+    - **带有多媒体字幕的多模型RAG**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/multi_model_rag_with_captioning.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/multi_model_rag_with_captioning.ipynb) - 为所有其他多媒体数据（如pdf、ppt等）添加字幕并与文本数据一起存储在向量存储中，然后一起检索它们。
+    - **带Colpali的多模型RAG**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/multi_model_rag_with_colpali.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/multi_model_rag_with_colpali.ipynb) - 不再添加字幕，而是将所有数据转换为图像，然后找到最相关的图像并将其传递给视觉大型语言模型。
     
 
 ### 🔁 迭代和自适应技术
 
 22. 带反馈循环的检索 🔁  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/retrieval_with_feedback_loop.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/retrieval_with_feedback_loop.ipynb)  
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/retrieval_with_feedback_loop.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/retrieval_with_feedback_loop.ipynb)  
     - **[可运行脚本](all_rag_techniques_runnable_scripts/retrieval_with_feedback_loop.py)**
 
     #### 概述 🔎
@@ -375,7 +375,7 @@
     收集并利用用户对检索文档和生成响应的相关性和质量的反馈，以微调检索和排名模型。
 
 23. 自适应检索 🎯  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/adaptive_retrieval.ipynb) [<img src="https.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/adaptive_retrieval.ipynb)  
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/adaptive_retrieval.ipynb) [<img src="https.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/adaptive_retrieval.ipynb)  
     - **[可运行脚本](all_rag_techniques_runnable_scripts/adaptive_retrieval.py)**
 
     #### 概述 🔎
@@ -394,7 +394,7 @@
 
 ### 📊 评估
 
-25. **DeepEval评估**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/evaluation/evaluation_deep_eval.ipynb) [<img src="https.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/evaluation/evaluation_deep_eval.ipynb) | 全面的RAG系统评估 |
+25. **DeepEval评估**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](evaluation/evaluation_deep_eval.ipynb) [<img src="https.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/evaluation/evaluation_deep_eval.ipynb) | 全面的RAG系统评估 |
 
     #### 概述 🔎
     通过涵盖多个指标并创建测试用例，对检索增强生成系统进行评估。
@@ -403,7 +403,7 @@
     使用 `deepeval` 库对RAG系统的正确性、忠实度和上下文相关性进行测试用例。
     
 
-26. **GroUSE评估**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/evaluation/evaluation_grouse.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/evaluation/evaluation_grouse.ipynb) | 基于上下文的LLM评估 |
+26. **GroUSE评估**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](evaluation/evaluation_grouse.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/evaluation/evaluation_grouse.ipynb) | 基于上下文的LLM评估 |
 
     #### 概述 🔎
     使用GroUSE框架的指标评估检索增强生成的最后阶段，并在GroUSE单元测试上对您的自定义LLM裁判进行元评估。
@@ -415,7 +415,7 @@
 ### 🔬 可解释性和透明度
 
 27. 可解释的检索 🔍  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/explainable_retrieval.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/explainable_retrieval.ipynb)  
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/explainable_retrieval.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/explainable_retrieval.ipynb)  
     - **[可运行脚本](all_rag_techniques_runnable_scripts/explainable_retrieval.py)**
 
     #### 概述 🔎
@@ -427,7 +427,7 @@
 ### 🏗️ 高级架构
 
 28. 使用Milvus向量数据库的图RAG 🔍 
-    - **使用Milvus的图RAG**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb)  
+    - **使用Milvus的图RAG**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/graphrag_with_milvus_vectordb.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graphrag_with_milvus_vectordb.ipynb)  
 
     #### 概述 🔎
     一种使用Milvus向量数据库实现图RAG的简单而强大的方法。该技术通过将基于关系的检索与向量搜索和重排相结合，显著提高了复杂多跳问题的性能。
@@ -439,7 +439,7 @@
     - 根据最相关的关系检索最终段落
 
 29. 知识图集成 (图RAG) 🕸️  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graph_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graph_rag.ipynb)  
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/graph_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/graph_rag.ipynb)  
     - **[可运行脚本](all_rag_techniques_runnable_scripts/graph_rag.py)**
 
     #### 概述 🔎
@@ -449,7 +449,7 @@
     从与查询相关的知识图中检索实体及其关系，将此结构化数据与非结构化文本相结合，以获得信息更丰富的响应。
 
 30. GraphRag (微软) 🎯
-    - **GraphRag**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/Microsoft_GraphRag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/Microsoft_GraphRag.ipynb)  
+    - **GraphRag**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/Microsoft_GraphRag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/Microsoft_GraphRag.ipynb)  
 
     #### 概述 🔎
     微软GraphRAG（开源）是一个先进的RAG系统，它集成了知识图以提高LLM的性能
@@ -458,7 +458,7 @@
     • 通过从文本单元中提取实体、关系来分析输入语料库。从下到上生成每个社区及其组成部分的摘要。
 
 31. RAPTOR：树状组织检索的递归抽象处理 🌳  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/raptor.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/raptor.ipynb)  
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/raptor.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/raptor.ipynb)  
     - **[可运行脚本](all_rag_techniques_runnable_scripts/raptor.py)**
 
     #### 概述 🔎
@@ -468,7 +468,7 @@
     使用抽象概括来递归处理和总结检索到的文档，将信息组织在树状结构中以实现分层上下文。
 
 32. Self RAG 🔁  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/self_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/self_rag.ipynb)  
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/self_rag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/self_rag.ipynb)  
     - **[可运行脚本](all_rag_techniques_runnable_scripts/self_rag.py)**
 
     #### 概述 🔎
@@ -478,7 +478,7 @@
     • 实现一个多步骤过程，包括检索决策、文档检索、相关性评估、响应生成、支持评估和效用评估，以产生准确、相关和有用的输出。
 
 33. 纠正性RAG 🔧  
-    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/crag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/crag.ipynb)  
+    - **LangChain**: [<img src="https://img.shields.io/badge/GitHub-View-blue" height="20">](all_rag_techniques/crag.ipynb) [<img src="https://colab.research.google.com/assets/colab-badge.svg" height="20">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/all_rag_techniques/crag.ipynb)  
     - **[可运行脚本](all_rag_techniques_runnable_scripts/crag.py)**
 
     #### 概述 🔎
