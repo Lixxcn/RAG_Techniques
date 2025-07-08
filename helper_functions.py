@@ -1,9 +1,9 @@
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
-from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain import PromptTemplate
+from langchain_community.vectorstores import FAISS
+from pydantic import BaseModel, Field
+from langchain_core.prompts import PromptTemplate
 from openai import RateLimitError
 from typing import List
 from rank_bm25 import BM25Okapi
@@ -13,6 +13,7 @@ import random
 import textwrap
 import numpy as np
 from enum import Enum
+import os
 
 
 def replace_t_with_space(list_of_documents):
@@ -70,7 +71,9 @@ def encode_pdf(path, chunk_size=1000, chunk_overlap=200):
     cleaned_texts = replace_t_with_space(texts)
 
     # Create embeddings and vector store
-    embeddings = OpenAIEmbeddings()
+    # embeddings = OpenAIEmbeddings()
+    embeddings = get_langchain_embedding_provider(EmbeddingProvider.OPENAI, model_id=os.environ["SF_EMBEDDING_MODEL"],
+    base_url=os.environ["SF_BASE_URL"], api_key=os.environ["SF_API_KEY"])
     vectorstore = FAISS.from_documents(cleaned_texts, embeddings)
 
     return vectorstore

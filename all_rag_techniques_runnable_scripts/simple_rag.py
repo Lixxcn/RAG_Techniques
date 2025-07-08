@@ -8,11 +8,11 @@ from dotenv import load_dotenv
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), '..')))
 
 from helper_functions import *
-from evaluation.evalute_rag import *
+# from evaluation.evalute_rag import *
 
 # Load environment variables from a .env file (e.g., OpenAI API key)
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
+os.environ["SF_API_KEY"] = os.getenv('SF_API_KEY')
 
 
 class SimpleRAG:
@@ -94,7 +94,7 @@ def parse_args():
 
 # Main function to handle argument parsing and call the SimpleRAGRetriever class
 def main(args):
-    # Initialize the SimpleRAGRetriever
+    # Initialize the SimpleRAGRetriever（简单的 RAG 检索器）
     simple_rag = SimpleRAG(
         path=args.path,
         chunk_size=args.chunk_size,
